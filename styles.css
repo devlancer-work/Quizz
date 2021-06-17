@@ -25,7 +25,8 @@ body {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    display: block;
+    position: absolute;
+    margin-left: -25px;
 }
 .loader::before, .loader::after {
     content: '';
